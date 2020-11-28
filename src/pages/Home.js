@@ -1,9 +1,15 @@
-import React from 'react'
+import React from 'react';
+import "./Home.css";
 
 function Home() {
     return (
         <div className="home">
-           <h1>Home</h1> 
+           <div className="section home__sectionOne__image">
+
+           </div>
+           <div className="section home__sectionTwo__image">
+
+           </div>
         </div>
     )
 }
