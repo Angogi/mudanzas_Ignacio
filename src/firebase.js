@@ -1,15 +1,15 @@
 import firebase from "firebase";
 
-const firebaseConfig = {
-  apiKey: "AIzaSyDNaGuH_uMdb026QaOn2IN2MoB4sRbd8gE",
-  authDomain: "mudanzasgenesis-2d2cc.firebaseapp.com",
-  projectId: "mudanzasgenesis-2d2cc",
-  storageBucket: "mudanzasgenesis-2d2cc.appspot.com",
-  messagingSenderId: "416207579375",
-  appId: "1:416207579375:web:658d8b9c3d2dab65aa131a",
-  measurementId: "G-E935DH99B6"
-};
 
+const firebaseConfig = {
+  apiKey: "AIzaSyDEcmfjx7sN7bgWL7tzzpG-qesm4t424eo",
+  authDomain: "mudanzasgenesis-29eb3.firebaseapp.com",
+  projectId: "mudanzasgenesis-29eb3",
+  storageBucket: "mudanzasgenesis-29eb3.appspot.com",
+  messagingSenderId: "819138131944",
+  appId: "1:819138131944:web:30e1924490fdb9338ad65d",
+  measurementId: "G-Q07C4R9260"
+};
 
 
   const firebaseApp = firebase.initializeApp(firebaseConfig);
