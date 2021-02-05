@@ -1,6 +1,5 @@
 .navBar{
-    /*background: linear-gradient(to right, #ff0000 , #ab0000);*/
-    background: green;
+    background: linear-gradient(to right, #ff0000 , #ab0000);
     border-bottom: 2px solid;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
