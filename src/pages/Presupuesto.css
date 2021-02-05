@@ -1,0 +1,10 @@
+.presupuesto{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    transition: 2s all;
+    margin-bottom: 200px;
+}
+

@@ -1,0 +1,11 @@
+.uploader{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 200px;
+    margin: 15px;
+}
+
+.uploader > button{
+    width: 80%;
+}

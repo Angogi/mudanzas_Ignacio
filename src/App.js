@@ -1,27 +1,36 @@
 import React from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
-import {BrowserRouter as Router , Switch, Route} from "react-router-dom";
+import {BrowserRouter as Router , Switch, Route, Redirect} from "react-router-dom";
 import Home from './pages/Home';
-import Products from './pages/Products';
-import Reports from './pages/Reports';
-import Team from './pages/Team';
-import Messages from './pages/Messages';
-import Support from './pages/Support';
+import Presupuesto from './pages/Presupuesto';
+import OtrosServicios from './pages/OtrosServicios';
+import Contacto from './pages/Contacto';
+import Office from './pages/Office';
+import PopupCookies from './components/PopupCookies';
+
+
+import ContactButtons from './components/ContactButtons';
+
+
 
 function App() {
+
+  
+
   return (
     <>
       <Router >
-
         <Navbar />
+        <ContactButtons />
+        <PopupCookies/>     
+
         <Switch>
           <Route path="/" exact component={Home}/>
-          <Route path="/products" component={Products}/>
-          <Route path="/reports" component={Reports}/>
-          <Route path="/team" component={Team}/>
-          <Route path="/messages" component={Messages}/>
-          <Route path="/support" component={Support}/>
+          <Route path="/presupuesto" component={Presupuesto} />
+          <Route path="/otros-servicios" component={OtrosServicios}/>
+          <Route path="/contacto" component={Contacto}/>
+          <Route path="/office" component={Office}/>
         </Switch>
 
       </Router>

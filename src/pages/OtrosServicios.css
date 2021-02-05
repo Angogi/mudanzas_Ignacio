@@ -1,0 +1,17 @@
+.otrosServivios{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(/images/under_construccion.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+@media (max-width: 768px){
+    .otrosServivios{
+        background-position-x: 75% ;
+    }
+}
