@@ -16,6 +16,7 @@ function Office() {
 
     return (
         <div className="office">
+            <h1>Iniciar sesión</h1>
         <label>Email:</label>
         <input 
             id="email"
