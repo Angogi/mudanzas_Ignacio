@@ -1,0 +1,41 @@
+{
+  "files": {
+    "analytics.js": "/static/js/analytics.cc3ea4f1.chunk.js",
+    "analytics.js.map": "/static/js/analytics.cc3ea4f1.chunk.js.map",
+    "database.js": "/static/js/database.9f67802b.chunk.js",
+    "database.js.map": "/static/js/database.9f67802b.chunk.js.map",
+    "firestore.js": "/static/js/firestore.8349056c.chunk.js",
+    "firestore.js.map": "/static/js/firestore.8349056c.chunk.js.map",
+    "functions.js": "/static/js/functions.224c155a.chunk.js",
+    "functions.js.map": "/static/js/functions.224c155a.chunk.js.map",
+    "main.css": "/static/css/main.937bddde.chunk.css",
+    "main.js": "/static/js/main.6810d7ef.chunk.js",
+    "main.js.map": "/static/js/main.6810d7ef.chunk.js.map",
+    "messaging.js": "/static/js/messaging.d654e6e8.chunk.js",
+    "messaging.js.map": "/static/js/messaging.d654e6e8.chunk.js.map",
+    "performance.js": "/static/js/performance.2a5da2c8.chunk.js",
+    "performance.js.map": "/static/js/performance.2a5da2c8.chunk.js.map",
+    "remoteConfig.js": "/static/js/remoteConfig.68f28db9.chunk.js",
+    "remoteConfig.js.map": "/static/js/remoteConfig.68f28db9.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.7878cc4e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.7878cc4e.js.map",
+    "storage.js": "/static/js/storage.2c4007e4.chunk.js",
+    "storage.js.map": "/static/js/storage.2c4007e4.chunk.js.map",
+    "static/css/10.2a86faee.chunk.css": "/static/css/10.2a86faee.chunk.css",
+    "static/js/10.cd35105c.chunk.js": "/static/js/10.cd35105c.chunk.js",
+    "static/js/10.cd35105c.chunk.js.map": "/static/js/10.cd35105c.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.b8ad3ceea78e764d81f72459f5fa9ed3.js": "/precache-manifest.b8ad3ceea78e764d81f72459f5fa9ed3.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/10.2a86faee.chunk.css.map": "/static/css/10.2a86faee.chunk.css.map",
+    "static/css/main.937bddde.chunk.css.map": "/static/css/main.937bddde.chunk.css.map",
+    "static/js/10.cd35105c.chunk.js.LICENSE.txt": "/static/js/10.cd35105c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7878cc4e.js",
+    "static/css/10.2a86faee.chunk.css",
+    "static/js/10.cd35105c.chunk.js",
+    "static/css/main.937bddde.chunk.css",
+    "static/js/main.6810d7ef.chunk.js"
+  ]
+}
