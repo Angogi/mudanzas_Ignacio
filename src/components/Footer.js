@@ -7,9 +7,16 @@ function Footer() {
             <div className="footer__container" >
                 <div className="sec abouts">
                     <h2>Acerca de nosotros</h2>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                        when an unknown printer took a galley of type and scrambled it to make a type specimen book
+                    <p> 
+                        Génesis ong es una asociación sin ánimo de lucro, 
+                        con un foco de ayuda principalmente hacía personas con adiciones 
+                        y que están en situación de desamparo. 
+                        Todo el dinero obtenido por las diferentes actividades realizadas
+                        es destinado 100% a la obra social, birndando alojamiento y cubriendo las necesidades
+                        básicas de nuestros residentes. 
+                        Creemos que a través de la fé en Jesucristo siempre hay una nueva esperanza de vida.
+                        Agradecemos vuestra ayuda, sin la cual no sería posible llevar a cabo esta noble causa. 
+                    
                     </p>
                     <ul className="sci">
                         <li><a href="#"><i class="fab fa-facebook"></i></a></li>
