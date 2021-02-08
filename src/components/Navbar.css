@@ -44,6 +44,10 @@
     color: black;
 
 }
+
+.menu-bars{
+    margin-right: 5px;
+}
 .menu-bars > svg{
     color: #000000 !important;
     font-size: 35px;
