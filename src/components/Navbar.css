@@ -36,7 +36,14 @@
 .logo > img{
     width: 60px;
 }
+.close-menu{
+    position: relative;
+    right: -80%;
+    background: #01b400;
+    border-radius: 50px;
+    color: black;
 
+}
 .menu-bars > svg{
     color: #000000 !important;
     font-size: 35px;
