@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import * as FaiIcons from "react-icons/fa"; 
 import * as AiIcons from "react-icons/ai";
+import KeyboardArrowUpIcon from '@material-ui/icons/KeyboardArrowUp';
 import * as AiFillPhone from "react-icons/ai";
 import {Link} from "react-router-dom";
 import {SidebarData } from './SidebarData';
@@ -32,7 +33,7 @@ function Navbar() {
             <nav className={sidebar ? 'nav-menu active' : 'nav-menu'} > 
                 <ul className="nav-menu-items" onClick={showSidebar}>
                     <li className="navbar-toggle">
-                        <Link to="#" className="menu-bars">
+                        <Link to="#">
                             <AiIcons.AiOutlineClose />
                         </Link>
                     </li>
@@ -46,6 +47,11 @@ function Navbar() {
                             </li>
                         )
                     })}
+                    <li className="navbar-toggle">
+                        <Link to="#" className="close-menu">
+                            <KeyboardArrowUpIcon />
+                        </Link>
+                    </li>
                 </ul>
             </nav>
         </IconContext.Provider>

@@ -16,13 +16,30 @@ function Home() {
 
     return (
         <div className="home">
-           <div className="section home__sectionImage__one"> 
+           <div className="home__sectionImage__one"> 
                 <div className="sectionOne__text">
                     <h1>Mudanzas Génesis</h1>
-                    <p>El servicio de mudanzas y transporte a nivel nacional desde Barcelona de  <b className="logo-name">Génesis ong.</b><br/>
+                    
+                    <h2>El servicio de mudanzas y transporte a nivel nacional desde Barcelona de  <b className="logo-name">Génesis ong.</b><br/>
                         Encuentra las ciudades desde donde ofrecemos nuestro servicio:<br/><br/>
-                        <a href="#">🚚Mudanzas Barcelona </a><br/><a href="#">🚚Mudanzas Badalona</a><br/><a href="#">🚚Mudanzas Santa Coloma de Gramanet</a><br/><a href="#">🚚Mudanzas Hospitalet de Llobregat</a>
-                    </p>
+                    </h2>
+
+                    <div className="listadoCiudades">
+                       
+                        <ul>
+                            <li><a href="#">🚚Mudanzas Barcelona </a></li>
+                            <li><a href="#">🚚Mudanzas Badalona</a></li>
+                            <li><a href="#">🚚Mudanzas Santa Coloma de Gramanet</a></li>
+                            <li><a href="#">🚚Mudanzas Hospitalet de Llobregat</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">🚚Mudanzas Barcelona </a></li>
+                            <li><a href="#">🚚Mudanzas Badalona</a></li>
+                            <li><a href="#">🚚Mudanzas Santa Coloma de Gramanet</a></li>
+                            <li><a href="#">🚚Mudanzas Hospitalet de Llobregat</a></li>
+                        </ul>
+    
+                    </div>
                 </div>
            </div>
            <div className="section services__container">
