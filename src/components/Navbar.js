@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import * as FaiIcons from "react-icons/fa";
+import * as FaiIcons from "react-icons/fa"; 
 import * as AiIcons from "react-icons/ai";
 import * as AiFillPhone from "react-icons/ai";
 import {Link} from "react-router-dom";

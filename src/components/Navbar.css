@@ -1,5 +1,5 @@
 .navBar{
-    background: linear-gradient(to right, #ff0000 , #ab0000);
+    background: linear-gradient(to right, #ff0000 , #ab0000); 
     border-bottom: 2px solid;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
@@ -19,16 +19,8 @@
 .navBar > a:hover{
     text-decoration: none !important;
     color: initial !important;
-    background-color: #ffffff !important;
-    border-radius: 15px;
    
-}
-
-.menu-bars{
-    margin-right: 2rem;
-    font-size: 2rem;
-    background:none;
-
+   
 }
 
 .logo{
@@ -47,35 +39,40 @@
 
 .menu-bars > svg{
     color: #000000 !important;
+    font-size: 35px;
 
 }
 .nav-menu{
-    background: linear-gradient(to right, #ff0000 , #a30303);
+    
     width: 300px;
-    height: 100vh;
     display: flex;
     justify-content: center;
     position: fixed;
-    top: 0;
-    left: -100%;
+    top: -100%;
+    right: 0;
     transition: 850ms;
-    z-index: 100;
+    z-index: 99;
 }
 
 
 .nav-menu.active{
-    left: 0;
+    top: 0;
     transition: 350ms;
 }
 
 .nav-text{
+    background: linear-gradient(to right, #ff0000 , #a30303);
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-around;
     align-items: center;
     padding: 8px 0px 8px 16px;
     list-style: none;
     height: 60px;
     color: #000000 !important; 
+    margin: 10px !important;
+    border-radius: 15px;
+    box-shadow: 2px 2px 4px rgba(0,0,0,.55);
+
 
 
 }
@@ -99,8 +96,7 @@
 .nav-text a:hover{
     text-decoration: none !important;
     color: initial !important;
-    background-color: #ffffff !important;
-    border-radius: 15px;
+   
 }
 
 .nav-menu-items{
