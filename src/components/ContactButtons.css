@@ -1,5 +1,5 @@
 .contactButtons{
- 
+
   bottom: 0;
   position: fixed;
   height: 100px;
@@ -65,11 +65,13 @@
     cursor: pointer;
     font-size: xx-large;
     position: absolute;
-    bottom: 0;
+    top: 0;
     right: 0px;
     color: black;
     border-radius: 50px;
-    border: 1px solid  red;
+    background: linear-gradient(to right, #ff0000 , #ab0000); 
+    box-shadow: 4px 4px 4px rgba(0,0,0,.55);
+
   }
 
   .contactButtons__messageActive{

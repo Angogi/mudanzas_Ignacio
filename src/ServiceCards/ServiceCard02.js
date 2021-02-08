@@ -17,7 +17,7 @@ function ServiceCard02() {
             <h2>Servicios Express</h2>
             <p>Transportes rapidos y todo tipo de portes.</p>
             <Link className="service__cardButton">
-                <button onClick={handleShow}>Solicitar rápida</button>
+                <button onClick={handleShow}>Solicitud rápida</button>
             </Link>
             <Modal2
                 show={show}
