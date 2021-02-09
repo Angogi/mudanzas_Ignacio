@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
 import {BrowserRouter as Router , Switch, Route, Redirect} from "react-router-dom";
@@ -8,15 +8,35 @@ import OtrosServicios from './pages/OtrosServicios';
 import Contacto from './pages/Contacto';
 import Office from './pages/Office';
 import PopupCookies from './components/PopupCookies';
+import ContactButtons from './components/ContactButtons'; 
+import {auth} from "./firebase";
+import {useStateValue} from "./StateProvider";
 
 
-import ContactButtons from './components/ContactButtons';
 
 
 
 function App() {
 
-  
+    const[{} , dispatch] = useStateValue();
+
+    useEffect(()=>{
+      auth.onAuthStateChanged(authUser =>{
+        console.log("THE USER IS  >>>>" , authUser);
+
+        if(authUser){
+          dispatch({
+            type: "SET_USER",
+            user: authUser
+          })
+        }else{
+          dispatch({
+            type: "SET_USER",
+            user: null
+          })
+        }
+      })
+    }, [])
 
   return (
     <>

@@ -16,9 +16,9 @@ function ServiceCard02() {
             <div className="service__cardImage cardImage__three" /> 
             <h2>Servicios Express</h2>
             <p>Transportes rapidos y todo tipo de portes.</p>
-            <Link className="service__cardButton">
-                <button onClick={handleShow}>Solicitud rápida</button>
-            </Link>
+           
+                <button className="service__cardButton" onClick={handleShow}>Solicitud rápida</button>
+            
             <Modal2
                 show={show}
                 onHide={handleClose2}
