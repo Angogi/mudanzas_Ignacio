@@ -1,24 +1,25 @@
 import React, { useState, useEffect } from "react";
 import "./SolicitudExpress.css"
 import { db } from "../firebase";
+import { useHistory } from 'react-router-dom';
 
 
 
 export const SolicitudExpress = () => {
 
+    const history = useHistory();
     const [nombre, setNombre] = useState("");
     const [numero, setNumero] = useState("");
     const [origen, setOrigen] = useState('')
     const [destino, setDestino] = useState('')
     const [mercancia, setMercancia] = useState("");
-  
     const [loader, setLoader] = useState(false);
   
     const handleSubmit = (e) => {
       e.preventDefault();
       setLoader(true);
   
-      db.collection("Solicitud Express")
+      db.collection("solicitud_express")
         .add({
           nombre: nombre,
           numero: numero,
@@ -33,14 +34,20 @@ export const SolicitudExpress = () => {
         .catch((error) => {
           alert(error.message);
           setLoader(false);
-        });
-  
-      setNombre("");
-      setNumero("");
-      setOrigen("");
-      setDestino("");
-      setMercancia("");
+        })
+
+          
+        setNombre("");
+        setNumero("");
+        setOrigen("");
+        setDestino("");
+        setMercancia("");
+
+      
+        
     };
+
+   
   
     return (
        <form className="solicitudExpress" onSubmit={handleSubmit}>
