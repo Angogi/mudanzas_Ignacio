@@ -19,9 +19,9 @@ function Footer() {
                     
                     </p>
                     <ul className="sci">
-                        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                        <li><a href="#"><i class="fas fa-envelope-open-text"></i></a></li>
+                        <li><a href="#"><i className="fab fa-facebook"></i></a></li>
+                        <li><a href="#"><i className="fab fa-instagram"></i></a></li>
+                        <li><a href="#"><i className="fas fa-envelope-open-text"></i></a></li>
                     </ul>
                 </div>
                 <div className="sec quickLinks">
@@ -37,15 +37,15 @@ function Footer() {
                     <h2>Contacto</h2>
                     <ul className="info">
                         <li>
-                            <span><i class="fas fa-map-marker-alt"></i></span>
+                            <span><i className="fas fa-map-marker-alt"></i></span>
                             <span>Barcelona, España</span>
                         </li>
                         <li>
-                            <span><i class="fas fa-phone-alt"></i></span>
+                            <span><i className="fas fa-phone-alt"></i></span>
                             <p><a href="tel:698632639">+34 698632639</a></p>
                         </li>
                         <li>
-                            <span><i class="fas fa-envelope"></i></span>
+                            <span><i className="fas fa-envelope"></i></span>
                             <p><a href="mailto:genesisong@gmail.com">genesisong@gmai.com</a></p>
                         </li>
                     </ul>
