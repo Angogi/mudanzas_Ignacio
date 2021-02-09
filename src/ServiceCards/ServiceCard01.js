@@ -47,7 +47,7 @@ function ServiceCard01() {
             <h2>Desalojo de pisos</h2>
             <p>Retirada de muebles, limpieza de piso. </p>
             
-                <button className="service__cardButton"  type="button" onClick={handleOpen} >Más información</button>
+            <button className="service__cardButton"  type="button" onClick={handleOpen} >Más información</button>
            
             <Modal
                 aria-labelledby="transition-modal-title"
