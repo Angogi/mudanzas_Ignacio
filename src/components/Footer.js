@@ -9,10 +9,10 @@ function Footer() {
                     <h2>Acerca de nosotros</h2>
                     <p> 
                         Génesis ong es una asociación sin ánimo de lucro, 
-                        con un foco de ayuda principalmente hacía personas con adiciones 
+                        con un foco de ayuda principalmente hacía personas con adicciones 
                         y que están en situación de desamparo. 
-                        Todo el dinero obtenido por las diferentes actividades realizadas
-                        es destinado 100% a la obra social, birndando alojamiento y cubriendo las necesidades
+                        Los recursos obtenidos por las diferentes actividades realizadas
+                        son destinados 100% a la obra social, birndando alojamiento y cubriendo las necesidades
                         básicas de nuestros residentes. 
                         Creemos que a través de la fé en Jesucristo siempre hay una nueva esperanza de vida.
                         Agradecemos vuestra ayuda, sin la cual no sería posible llevar a cabo esta noble causa. 
