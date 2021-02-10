@@ -40,7 +40,7 @@ const FormularioPresupuesto = () => {
       email: Yup.string().email('Dirección de email invalida.'),
     }),
     onSubmit: values => {
-        db.collection('solicitud_presupuesto').add({
+        db.collection('solicitudesPresupuesto').add({
           ciudadOrigen: values.ciudadOrigen,
           provinciaOrigen:values.provinciaOrigen,
           codigoPostalOrigen:values.codigoPostalOrigen,
