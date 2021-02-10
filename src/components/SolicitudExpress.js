@@ -19,7 +19,7 @@ export const SolicitudExpress = () => {
       e.preventDefault();
       setLoader(true);
   
-      db.collection("solicitud_express")
+      db.collection("solicitudesExpress")
         .add({
           nombre: nombre,
           numero: numero,
