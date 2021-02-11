@@ -63,12 +63,13 @@
     right: 0;
     transition: 850ms;
     z-index: 99;
+    opacity: 0;
 }
 
 
 .nav-menu.active{
     top: 0;
-    transition: 350ms;
+    opacity: 1;
 }
 
 .nav-text{
