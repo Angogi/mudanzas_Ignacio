@@ -115,6 +115,24 @@
 
 .sectionTwo__text >h2{
     font-size: 3.5rem;
+    position: relative;
+    max-width: max-content;
+    align-items: center;
+}
+.sectionTwo__text > h2:before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    width: 230px;
+    height: 10px;
+    background: linear-gradient(to right, #ff0000 , #ab0000);
+    border-radius: 15px;
+}
+
+.sectionTwo__text > h3 >a{
+    text-decoration: none;
+    cursor: pointer;
 }
 
 
@@ -151,6 +169,8 @@
         text-align: center;
     }
 
+    
+
    
     
 }
@@ -160,6 +180,9 @@
     .section{
         height: auto;
     }
+
+    
+   
 
    
     
@@ -218,4 +241,6 @@
         width: 100%;
         padding: 10px;
     }
+
+    
 }

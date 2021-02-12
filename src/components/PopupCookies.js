@@ -14,7 +14,7 @@ function PopupCookies() {
                     Utilizamos cookies propias y de terceros para obtener 
                     datos estadísticos de la navegación de nuestros usuarios
                     y mejorar nuestros servicios. 
-                    Si acepta o continúa navegando, consideramos que acepta su uso.
+                    Si acepta o continúa navegando, consideramos que acepta su uso.<br/>
                     <button className="aceptarCookies" onClick={aceptarCookies}>Continuar navegando</button>
                 
                 </p>

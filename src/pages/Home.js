@@ -61,7 +61,7 @@ function Home() {
                 <h3>Cuenta con nosotros para tu servicio de <strong>mudanzas en Barcelona.</strong>&nbsp;
                     Contamos con lo que necesitas para tu <strong>mudanza desde Barcelona a nivel nacional.</strong>&nbsp;
                     Y por supuesto, si lo que buscas es un equilibrio entre profesionalidad y una <strong>mudanza económica desde Barcelona</strong>&nbsp;
-                    estás en el lugar indicado, puedes consultarnos al siguiente número. 
+                    estás en el lugar indicado, puedes consultarnos al siguiente número: <br/><br/><a href="tel:722845044"><span><i className="fas fa-phone-alt"></i></span>722845044</a> 
                 </h3>
             </div>
 

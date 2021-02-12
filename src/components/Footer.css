@@ -41,6 +41,8 @@
    width: 130px;
    height: 5px;
    background: linear-gradient(to right, #ff0000 , #ab0000);
+   border-radius: 15px;
+
 
 }
 

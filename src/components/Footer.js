@@ -42,11 +42,11 @@ function Footer() {
                         </li>
                         <li>
                             <span><i className="fas fa-phone-alt"></i></span>
-                            <p><a href="tel:698632639">+34 698632639</a></p>
+                            <p><a href="tel:722845044">(+34)722845044</a></p>
                         </li>
                         <li>
                             <span><i className="fas fa-envelope"></i></span>
-                            <p><a href="mailto:genesisong@gmail.com">genesisong@gmai.com</a></p>
+                            <p><a href="mailto:genesismudanzasg@gmail.com">genesismudanzasg@gmail.com</a></p>
                         </li>
                     </ul>
                 </div>                
