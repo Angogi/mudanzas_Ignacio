@@ -53,13 +53,26 @@ function Home() {
                 <ServiceCard01 />
                 <ServiceCard02 />
            </div>
-           <div className="section home__sectionImage__two">
-                <div className="sectionTwo__text">
+
+        
+            <div className="sectionTwo__text">
+                <br/>
+                <h2>¿Te mudas?</h2>
+                <h3>Cuenta con nosotros para tu servicio de <strong>mudanzas en Barcelona.</strong>&nbsp;
+                    Contamos con lo que necesitas para tu <strong>mudanza desde Barcelona a nivel nacional.</strong>&nbsp;
+                    Y por supuesto, si lo que buscas es un equilibrio entre profesionalidad y una <strong>mudanza económica desde Barcelona</strong>&nbsp;
+                    estás en el lugar indicado, puedes consultarnos al siguiente número. 
+                </h3>
+            </div>
+
+
+           <div className="section home__sectionImage__three">
+                <div className="sectionThree__text">
                     <h2>Cuidamos de los tuyos</h2>
-                    <p>Cumplimos con las normas de bioseguridad</p>
+                    
                 </div>
            </div>
-
+           
            <Footer />
           
         </div>
