@@ -46,7 +46,7 @@ function Footer() {
                         </li>
                         <li>
                             <span><i className="fas fa-envelope"></i></span>
-                            <p><a href="mailto:genesismudanzasg@gmail.com">genesismudanzasg@gmail.com</a></p>
+                            <p><a href="mailto:genesismudanzasg@gmail.com">genesismudanzas@gmail.com</a></p>
                         </li>
                     </ul>
                 </div>                
