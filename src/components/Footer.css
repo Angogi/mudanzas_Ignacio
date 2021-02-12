@@ -134,6 +134,9 @@
 .contact > .info > li > span{
     color: #999;
 }
+.contact > .info > li > p{
+    color: #999;
+}
 
 .contact > .info > li > span > .fas{
     color: #01b400;

@@ -38,7 +38,7 @@ function Footer() {
                     <ul className="info">
                         <li>
                             <span><i className="fas fa-map-marker-alt"></i></span>
-                            <span>Barcelona, España</span>
+                            <p>Barcelona, España</p>
                         </li>
                         <li>
                             <span><i className="fas fa-phone-alt"></i></span>
