@@ -46,20 +46,19 @@
 }
 
 .sectionOne__text > h2{
-    text-align: start;
+    text-align: justify;
     color: #000000;
     font-weight: 500;   
     padding: 13.5px;
     font-size: 3.5rem;
 }
-/
+
 
 
 .sectionOne__text > .listadoCiudades{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
     text-align: left;
     
 
@@ -206,8 +205,8 @@
     }
 
     .sectionOne__text > h2{
-        text-align: inherit;
-        font-size: 2rem;
+        text-align: left;
+        font-size: 3rem;
         padding: 10px;
     }
 
