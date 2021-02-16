@@ -1,12 +1,30 @@
 .contacto{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: relative;
+    top: 100px;
+    width: 100%;
+}
+
+.imageContacto{
+   
     background: url(/images/contact.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position-x: center;
+    width: 350px;   
+    height: 350px;
 }
 
+.contact__map{
+    flex: 0.5;
+}
+
+@media (max-width: 768px){
+    
+    .contact__map{
+        width: 100%;
+    }
+}
