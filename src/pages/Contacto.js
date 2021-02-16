@@ -15,7 +15,7 @@ function Contacto() {
                 <Map 
                 
                     googleMapURL= {mapUrl}
-                    containerElement= {<div style={{height: '400px', width: "400px", flex:"1", marginBottom: "20px"}}></div>}
+                    containerElement= {<div style={{height: '400px', flex:"1", marginBottom: "20px", width: "100%"}}></div>}
                     mapElement= {<div style={{height: '100%'}}></div>}
                     loadingElement= {<p>Cargando</p>}
 

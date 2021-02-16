@@ -9,7 +9,7 @@
 }
 
 .imageContacto{
-   
+    
     background: url(/images/contact.jpg);
     background-size: contain;
     background-repeat: no-repeat;
@@ -18,13 +18,10 @@
     height: 350px;
 }
 
-.contact__map{
-    flex: 0.5;
-}
 
-@media (max-width: 768px){
+/* @media (max-width: 768px){
     
     .contact__map{
         width: 100%;
     }
-}
+} */
