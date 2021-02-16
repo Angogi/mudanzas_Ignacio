@@ -5,7 +5,7 @@
     align-items: center;
     height: 100vh;
     background: url(/images/contact.jpg);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position-x: center;
 }
