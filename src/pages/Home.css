@@ -194,7 +194,7 @@
     
 }
 
-.contactList > li{
+.contactList > a{
     background: #efefef;
     border: 1px solid;
     border-radius: 15px;
