@@ -6,6 +6,7 @@ import ServiceCard02 from '../ServiceCards/ServiceCard02';
 import Footer from "../components/Footer";
 import CarouselImages from "../components/Carousel";
 import WhatsAppIcon from '@material-ui/icons/WhatsApp';
+import PhoneIcon from '@material-ui/icons/Phone';
 
 
 function Home() {
@@ -64,7 +65,11 @@ function Home() {
                 <h3>Cuenta con nosotros para tu servicio de <strong>mudanzas en Barcelona.</strong>&nbsp;
                     Contamos con lo que necesitas para tu <strong>mudanza desde Barcelona a nivel nacional.</strong>&nbsp;
                     Y por supuesto, si lo que buscas es un equilibrio entre profesionalidad y una <strong>mudanza económica desde Barcelona</strong>&nbsp;
-                    estás en el lugar indicado, puedes consultarnos al siguiente número: <br/><br/><a href="tel:722845044"><span><i className="fas fa-phone-alt"></i></span>722845044</a> 
+                    estás en el lugar indicado, puedes consultarnos ¡ahora mismo! <br/><br/>
+                    <ul className="contactList">
+                        <li><a href="tel:722845044"><PhoneIcon/>722845044</a></li>
+                        <li className="contactList__whatsapp"><a href="https://wa.me/34698632639"><WhatsAppIcon />WhatsApp</a></li> 
+                    </ul> 
                 </h3>
             </div>
 
@@ -72,7 +77,11 @@ function Home() {
                 <h3>
                     Contamos con lo que necesitas para tu <strong>mudanza desde Barcelona a nivel nacional.</strong>&nbsp;
                     Camiones y gruas especializadas para tu <strong>mudanza económica desde Barcelona</strong>.&nbsp;<br/>
-                    Contacta ahora y solicita un presupuesto a medida: <br/><a href="https://wa.me/34698632639"><WhatsAppIcon /> WhatsApp</a> 
+                    Contacta ahora y solicita un presupuesto a medida: <br/>
+                        <ul className="contactList">
+                            <li><a href="tel:722845044"><PhoneIcon/>722845044</a></li>
+                            <li className="contactList__whatsapp"><a href="https://wa.me/34698632639"><WhatsAppIcon />WhatsApp</a></li> 
+                        </ul>
                     
                 </h3>
                 <CarouselImages />

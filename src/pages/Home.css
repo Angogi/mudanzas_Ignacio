@@ -171,6 +171,8 @@
 
 .carouselSection > .carousel{
     width: 45%;
+    padding: 10px;
+
 }
 
 .carouselSection > .carousel > img{
@@ -179,6 +181,32 @@
 
 .carouselSection > h3{
     width: 45%;
+}
+
+.contactList{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    position: relative;
+    justify-content: space-around;
+    height: 150px;
+    
+}
+
+.contactList > li{
+    background: #efefef;
+    border: 1px solid;
+    border-radius: 15px;
+    box-shadow: 0px 3px 4px -1px rgba(0,0,0,0.75) !important;
+    padding: 3px;
+}
+
+.contactList__whatsapp{
+    color: #01b400;
+}
+.contactList__whatsapp > a{ 
+    color: #01b400;
 }
 
 

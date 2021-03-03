@@ -60,7 +60,7 @@ const CarouselImages = (props) => {
         onExited={() => setAnimating(false)}
         key={item.src}
       >
-        <img src={item.src} alt={item.altText} height="750px"/>
+        <img src={item.src} alt={item.altText} height="550px"/>
         <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
       </CarouselItem>
     );
