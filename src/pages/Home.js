@@ -4,6 +4,9 @@ import ServiceCard00 from '../ServiceCards/ServiceCard00';
 import ServiceCard01 from '../ServiceCards/ServiceCard01';
 import ServiceCard02 from '../ServiceCards/ServiceCard02';
 import Footer from "../components/Footer";
+import CarouselImages from "../components/Carousel";
+import WhatsAppIcon from '@material-ui/icons/WhatsApp';
+
 
 function Home() {
 
@@ -65,6 +68,15 @@ function Home() {
                 </h3>
             </div>
 
+            <div className="carouselSection">
+                <h3>
+                    Contamos con lo que necesitas para tu <strong>mudanza desde Barcelona a nivel nacional.</strong>&nbsp;
+                    Camiones y gruas especializadas para tu <strong>mudanza económica desde Barcelona</strong>.&nbsp;<br/>
+                    Contacta ahora y solicita un presupuesto a medida: <br/><a href="https://wa.me/34698632639"><WhatsAppIcon /> WhatsApp</a> 
+                    
+                </h3>
+                <CarouselImages />
+            </div>
 
            <div className="section home__sectionImage__three">
                 <div className="sectionThree__text">
