@@ -66,7 +66,7 @@ function Home() {
                     Contamos con lo que necesitas para tu <strong>mudanza desde Barcelona a nivel nacional.</strong>&nbsp;
                     Y por supuesto, si lo que buscas es un equilibrio entre profesionalidad y una <strong>mudanza económica desde Barcelona</strong>&nbsp;
                     estás en el lugar indicado, puedes consultarnos ¡ahora mismo! <br/><br/>
-                    <ul className="contactList">
+                    <ul className="contactList contactList__align">
                         <a href="tel:722845044"><PhoneIcon/>722845044</a>
                         <a className="contactList__whatsapp" href="https://wa.me/34698632639"><WhatsAppIcon />WhatsApp</a>
                     </ul> 
@@ -77,7 +77,7 @@ function Home() {
                 <h3>
                     Contamos con lo que necesitas para tu <strong>mudanza desde Barcelona a nivel nacional.</strong>&nbsp;
                     Camiones y gruas especializadas para tu <strong>mudanza económica desde Barcelona</strong>.&nbsp;<br/>
-                    Contacta ahora y solicita un presupuesto a medida: <br/>
+                    Contacta ahora y solicita un presupuesto a medida: <br/><br/>
                         <ul className="contactList">
                             <a href="tel:722845044"><PhoneIcon/>722845044</a>
                             <a className="contactList__whatsapp" href="https://wa.me/34698632639"><WhatsAppIcon />WhatsApp</a>

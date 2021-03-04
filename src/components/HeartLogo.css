@@ -1,0 +1,52 @@
+.heartLogo{
+    background-color: #01b400;
+    display: inline-block;
+    height: 25px;
+    margin: 0 10px;
+    top: 0;
+    transform: rotate(-45deg);
+    position: absolute;
+    left: 5%;
+    top: 40%;
+    width: 25px;
+    z-index: -1;
+    animation: latido 1s infinite;
+}
+
+.heartLogo:before,
+.heartLogo:after{
+    content: "";
+    background-color: #01b400;
+    border-radius: 50%;
+    height: 25px;
+    position: absolute;
+    width: 25px;
+}
+
+.heartLogo:before {
+    top: -15px;
+    left: 0;
+  }
+  
+.heartLogo:after {
+    left: 15px;
+    top: 0;
+}
+
+@keyframes latido {
+    0%
+    {
+      transform: scale( 1 )
+        rotate(-45deg);    
+    }
+    20%
+    {
+      transform: scale( 1.25 )
+        rotate(-45deg);  
+    }
+     40%
+    {
+      transform: scale( 1.5 )
+        rotate(-45deg);
+    }
+  }

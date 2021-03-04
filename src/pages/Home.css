@@ -163,25 +163,28 @@
     flex-direction: row;
     flex-wrap: wrap-reverse;
     position: relative;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     width: 100%;
     
 }
 
 .carouselSection > .carousel{
-    width: 45%;
+    width: min-content;
     padding: 10px;
 
 }
 
-.carouselSection > .carousel > img{
-    background-size: contain !important;
+.carouselSection > .carousel > .carousel-inner > .carousel-item > img{
+    width: 400px;
+    height: 100%;
+    
 }
 
 .carouselSection > h3{
     width: 45%;
 }
+
 
 .contactList{
     display: flex;
@@ -194,6 +197,27 @@
     
 }
 
+.contactList:before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 10px;
+    background: linear-gradient(to right, #ff0000 , #ab0000);
+    border-radius: 15px;
+}
+
+.contactList__align{
+    align-items: flex-end !important;
+}
+
+.contactList__align:before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 10px;
+    background: linear-gradient(to right, #ff0000 , #ab0000);
+    border-radius: 15px;
+}
 .contactList > a{
     background: #efefef;
     border: 1px solid;
@@ -292,6 +316,10 @@
     .sectionTwo__text{
         width: 100%;
         padding: 10px;
+    }
+
+    .contactList__align{
+        align-items: center !important;
     }
 
     .carouselSection > .carousel{

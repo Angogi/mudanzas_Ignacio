@@ -12,7 +12,7 @@ const items = [
   {
     src: require('../images/image1.jpg'),
     altText: 'Gruas especializadas',
-    caption: 'Lo hacemos sencillo'
+    caption: 'Gruas especializadas'
   },
   {
     src: require('../images/image2.jpg'),
@@ -22,13 +22,14 @@ const items = [
   {
     src: require('../images/image3.jpg'),
     altText: 'Flota de camiones',
-    caption: ''
+    caption: 'Flota de camiones'
   },
   {
     src: require('../images/image4.jpg'),
     altText: 'Camiones',
     caption: ''
   },
+  
  
 ];
 
@@ -61,7 +62,7 @@ const CarouselImages = (props) => {
         key={item.src}
       >
         <img src={item.src} alt={item.altText} height="550px"/>
-        <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
+        <CarouselCaption  captionHeader={item.caption} />
       </CarouselItem>
     );
   });

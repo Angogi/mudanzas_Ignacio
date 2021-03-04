@@ -7,6 +7,7 @@ import {Link} from "react-router-dom";
 import {SidebarData } from './SidebarData';
 import './Navbar.css';
 import {IconContext} from 'react-icons';
+import HeartLogo from "./HeartLogo";
 
 
 function Navbar() {
@@ -20,7 +21,9 @@ function Navbar() {
             <div className="navBar">
 
                 <Link to="/" className="logo">
-                    <img src="/images/logo.png"></img>
+                    <HeartLogo />
+
+                    <img src="/images/logo.png"/>
                     Génesis ong
                 </Link>
                 
