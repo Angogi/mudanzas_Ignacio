@@ -7,7 +7,9 @@ function HeartLogo() {
 
   
     return (
-      <div className="heartLogo" ></div>
+      <div className="heartLogo" >
+            <img src="/images/logo.png"/>
+      </div>
     )
 }
 

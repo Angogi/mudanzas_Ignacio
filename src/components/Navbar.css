@@ -24,8 +24,10 @@
 }
 
 .logo{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
     color: #ffffff;
-    font-size: xxx-large;
     margin-left: 10px;
     cursor: pointer;
     text-decoration: none;
@@ -33,9 +35,12 @@
 
 }
 
-.logo > img{
-    width: 60px;
+.logo > h1{
+    margin-left: 20px;
+    font-size: xxx-large;
 }
+
+
 .close-menu{
     position: relative;
     right: -80%;
@@ -129,7 +134,7 @@ span{
 }
 
 @media (max-width: 768px){
-    .logo{
+    .logo > h1{
         font-size: xx-large;
     }
 }

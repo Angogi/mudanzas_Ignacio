@@ -1,13 +1,13 @@
 .heartLogo{
     background-color: #01b400;
+    box-shadow: 3px 2px 3px rgb(0 0 0 / 50%);
     display: inline-block;
     height: 25px;
     margin: 0 10px;
     top: 0;
     transform: rotate(-45deg);
-    position: absolute;
+    position: relative;
     left: 5%;
-    top: 40%;
     width: 25px;
     z-index: -1;
     animation: latido 1s infinite;
@@ -21,6 +21,7 @@
     height: 25px;
     position: absolute;
     width: 25px;
+    box-shadow: 3px 2px 3px rgb(0 0 0 / 50%);
 }
 
 .heartLogo:before {
@@ -50,3 +51,15 @@
         rotate(-45deg);
     }
   }
+
+ .heartLogo > img{
+    width: 40px;
+    transform: rotate(45deg);
+    position: relative;
+    left: -6px;
+    top: -10px;
+    z-index: 1;
+
+}
+
+ 

@@ -22,9 +22,7 @@ function Navbar() {
 
                 <Link to="/" className="logo">
                     <HeartLogo />
-
-                    <img src="/images/logo.png"/>
-                    Génesis ong
+                    <h1>Génesis ong</h1>
                 </Link>
                 
                 <Link to="#" className="menu-bars">
