@@ -8,7 +8,7 @@ function HeartLogo() {
   
     return (
       <div className="heartLogo" >
-            <img src="/images/logo.png"/>
+            <img src="/images/logo.png" alt="Estrella de David, logo Génesis ong"/>
       </div>
     )
 }
