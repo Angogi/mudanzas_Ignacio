@@ -1,0 +1,69 @@
+.formularioHome{
+    display: flex;
+    position: relative;
+    top: 0;
+    flex-direction: column;
+    width: 700px;
+    border: 1px solid;
+    border-radius: 15px;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-around;
+  
+}
+
+.formularioHome__inputsContainter{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.inputBox{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    font-size: 25px;
+    color: black;
+    
+}
+
+.inputBox > input{
+    border-radius: 15px;
+    border: 1px solid;
+}
+
+.formularioHome > button{
+    border: 1px solid ;
+    border-radius: 15px;
+    color: #01b400;
+    font-size: 25px;
+    padding-right: 15px;
+    padding-left: 15px;
+    position: relative;
+    font-weight: 900;
+    box-shadow: 3px 6px 7px -3px rgba(0,0,0,0.95);
+    margin-top: 10px;
+    height: 50px;
+    width: 50%;
+}
+
+
+
+@media (max-width: 768px){
+    .formularioHome{
+        border: none;
+        width: 100%;
+    }
+
+    .formularioHome > button{
+        width: 100%;
+    }
+
+    .inputBox{
+        -webkit-text-stroke: 0.2px #fff;
+    }
+} 

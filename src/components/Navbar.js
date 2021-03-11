@@ -2,7 +2,6 @@ import React, {useState} from 'react';
 import * as FaiIcons from "react-icons/fa"; 
 import * as AiIcons from "react-icons/ai";
 import KeyboardArrowUpIcon from '@material-ui/icons/KeyboardArrowUp';
-import * as AiFillPhone from "react-icons/ai";
 import {Link} from "react-router-dom";
 import {SidebarData } from './SidebarData';
 import './Navbar.css';

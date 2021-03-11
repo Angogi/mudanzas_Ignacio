@@ -1,6 +1,5 @@
 import React from 'react';
 import './ServiceCard.css';
-import {Link} from "react-router-dom";
 import Modal from '@material-ui/core/Modal';
 import { makeStyles } from '@material-ui/core/styles';
 import Backdrop from '@material-ui/core/Backdrop';

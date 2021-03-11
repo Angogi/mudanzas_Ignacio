@@ -1,12 +1,11 @@
-import React, { useState, useEffect } from "react";
+import React, { useState} from "react";
 import "./SolicitudExpress.css"
 import { db } from "../firebase";
-import { useHistory } from 'react-router-dom';
 import {EmailSender} from "./EmailSender";
 
 export const SolicitudExpress = () => {
 
-    const history = useHistory();
+    
     const [nombre, setNombre] = useState("");
     const [numero, setNumero] = useState("");
     const [origen, setOrigen] = useState('')

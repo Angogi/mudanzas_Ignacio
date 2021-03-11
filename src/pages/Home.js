@@ -1,5 +1,6 @@
 import React, {useEffect} from 'react';
 import "./Home.css";
+import FormularioHome from "../components/FormularioHome";
 import ServiceCard00 from '../ServiceCards/ServiceCard00';
 import ServiceCard01 from '../ServiceCards/ServiceCard01';
 import ServiceCard02 from '../ServiceCards/ServiceCard02';
@@ -20,16 +21,20 @@ function Home() {
 
     return (
         <div className="home">
-           <div className="home__sectionImage__one"> 
+           <div className="home__sectionImage__one">  
                 <div className="sectionOne__text">
                     <h1>Mudanzas Génesis<span /></h1>
                     
                     <h2>El servicio de mudanzas y transporte a nivel nacional desde Barcelona de <b className="logo-name">Génesis ong.</b><br/>
-                        Encuentra las ciudades desde donde ofrecemos nuestro servicio:<br/><br/>
+                        Puedes solicitar ahora mismo un presupuesto para tu mudanza o transporte desde Barcelona; déjanos saber que quieres transportar
+                        y donde lo quieres llevar, el resto lo hacemos nosotros. Ofrecemos soluciones simples y acordes a cada necesidad para que puedas
+                        tener una mudanza desde Barcelona de la mano de profesionales.
                     </h2>
 
+                    <FormularioHome />
+
                     <div className="listadoCiudades">
-                       
+                        
                         <ul>
                             <li><h2>Mudanzas Barcelona </h2></li>
                             <li><h2>Mudanzas Badalona</h2></li>

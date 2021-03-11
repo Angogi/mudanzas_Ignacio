@@ -1,7 +1,6 @@
 import React, {useState} from 'react';
 import './ServiceCard.css';
 import SolicitudExpress from "../components/SolicitudExpress";
-import {Link} from "react-router-dom";
 import Modal2 from 'react-bootstrap/Modal'
 import Button from 'react-bootstrap/Button'
 

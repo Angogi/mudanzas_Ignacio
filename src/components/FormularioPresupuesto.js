@@ -101,7 +101,7 @@ const FormularioPresupuesto = () => {
   
   });
   return (
-    <form  onSubmit={formik.handleSubmit}>
+    <form className="formularioPresupuesto" onSubmit={formik.handleSubmit}>
       <h1>Solicitud de presupuesto</h1>
       <div className="inputs__containerType2 divImagen1 "/>
         <div className="inputs__boxContainer">
