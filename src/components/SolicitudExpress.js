@@ -2,8 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./SolicitudExpress.css"
 import { db } from "../firebase";
 import { useHistory } from 'react-router-dom';
-
-
+import {EmailSender} from "./EmailSender";
 
 export const SolicitudExpress = () => {
 
@@ -14,7 +13,7 @@ export const SolicitudExpress = () => {
     const [destino, setDestino] = useState('')
     const [mercancia, setMercancia] = useState("");
     const [loader, setLoader] = useState(false);
-  
+
     const handleSubmit = (e) => {
       e.preventDefault();
       setLoader(true);
@@ -35,20 +34,34 @@ export const SolicitudExpress = () => {
           alert(error.message);
           setLoader(false);
         })
+        .then(()=>{
 
-          
+          let emailTemplateParams = {
+            type: "Solicitud Express",
+            nombre: nombre,
+            numero: numero,
+            origen: origen,
+            destino: destino,
+            mercancia: mercancia,
+          };
+
+          EmailSender(emailTemplateParams );
+     
+                 
+        })
+        
+             
         setNombre("");
         setNumero("");
         setOrigen("");
         setDestino("");
         setMercancia("");
 
-      
+       
+  
         
     };
 
-   
-  
     return (
        <form className="solicitudExpress" onSubmit={handleSubmit}>
             <label>Nombre</label>

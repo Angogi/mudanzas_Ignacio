@@ -3,10 +3,12 @@ import './FormularioPresupuesto.css'
 import { useFormik } from 'formik';
 import * as Yup from 'yup';
 import { db } from "../firebase";
-
+import {EmailSender} from "./EmailSender";
 
 const FormularioPresupuesto = () => {
-  const formik = useFormik({
+
+
+    const formik = useFormik({
     initialValues: {
       ciudadOrigen: '',
       provinciaOrigen:'',
@@ -71,10 +73,30 @@ const FormularioPresupuesto = () => {
             alert(error.message)
         })
         .then(()=>{
+
+          let emailTemplateParams = {
+            type: "Mudanza Completa",
+            nombre: values.nombre,
+            numero: values.numeroDeContacto,
+            email: values.email,
+            origen: values.ciudadOrigen,
+            destino: values.ciudadDestino,
+            mercancia: "Mudanza Completa, ver datos en oficina virtual",
+          };
+
+          EmailSender(emailTemplateParams );
+     
+                 
+        })
+        .then(()=>{
          formik.handleReset();
         })
+        
 
     },
+
+    
+
 
   
   });
@@ -146,7 +168,7 @@ const FormularioPresupuesto = () => {
               >
 
                 <option value="Interior">Interior</option>
-                <option value="Exterior">Extererior</option>
+                <option value="Exterior">Exterior</option>
 
               </select>
             </div>
