@@ -7,6 +7,8 @@ import {SidebarData } from './SidebarData';
 import './Navbar.css';
 import {IconContext} from 'react-icons';
 import HeartLogo from "./HeartLogo";
+import PhoneIcon from '@material-ui/icons/Phone';
+
 
 
 function Navbar() {
@@ -23,7 +25,8 @@ function Navbar() {
                     <HeartLogo />
                     <h1>Génesis ong</h1>
                 </Link>
-                
+
+               
                 <Link to="#" className="menu-bars">
                     <FaiIcons.FaBars onClick={showSidebar} />
                 </Link>

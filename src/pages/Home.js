@@ -29,7 +29,15 @@ function Home() {
                         Puedes solicitar ahora mismo un presupuesto para tu mudanza o transporte desde Barcelona; déjanos saber que quieres transportar
                         y donde lo quieres llevar, el resto lo hacemos nosotros. Ofrecemos soluciones simples y acordes a cada necesidad para que puedas
                         tener una mudanza desde Barcelona de la mano de profesionales.
+                        
+                        <ul className="contactList">
+                            <a href="tel:722845044"><PhoneIcon/>722845044</a>
+                            <a className="contactList__whatsapp" href="https://wa.me/34722845044"><WhatsAppIcon />WhatsApp</a>
+                        </ul>
+                    
                     </h2>
+
+                   
 
                     <FormularioHome />
 
@@ -72,7 +80,7 @@ function Home() {
                     Y por supuesto, si lo que buscas es un equilibrio entre profesionalidad y una <strong>mudanza económica desde Barcelona</strong>&nbsp;
                     estás en el lugar indicado, puedes consultarnos ¡ahora mismo! <br/><br/>
                     <ul className="contactList contactList__align">
-                        <a href="tel:722845044"><PhoneIcon/>698632639</a>
+                        <a href="tel:698632639"><PhoneIcon/>698632639</a>
                         <a className="contactList__whatsapp" href="https://wa.me/34698632639"><WhatsAppIcon />WhatsApp</a>
                     </ul> 
                 </h3>
