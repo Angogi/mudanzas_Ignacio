@@ -48,7 +48,7 @@
     position: absolute;
     width: 200px;
     text-align: left;
-    top: -250%;
+    top: -200%;
     right: -260px;
     transition: 0.3s all;
   }
@@ -58,6 +58,10 @@
     font-weight: bolder;
     padding: 5px;
     justify-content: center;
+  }
+  .contactButtons__message >p >span{
+    display: flex;
+    justify-content: flex-end;
   }
 
   .contactButtons__message > .closeIcon{
@@ -76,6 +80,10 @@
 
   .contactButtons__messageActive{
     right: 50px;
+  }
+
+  .closeMessage{
+    display: none;
   }
 
   

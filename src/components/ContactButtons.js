@@ -51,11 +51,14 @@ export default function SpeedDials() {
   const classes = useStyles();
   const [open, setOpen] = React.useState(false);
   const [seconds, setSeconds] = useState(0);
-  const [closed, setClosed] = useState(0);
   const [message, setMessage] = useState(false);
   const divMessage = document.getElementById('message');
   const activeMessage = 'contactButtons__message contactButtons__messageActive';
-  const showMessage = ()=> setMessage(!message);
+  const closeMessage = "closeMessage";
+  const showMessage = ()=>{
+    setMessage(!message); 
+    
+  }
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -65,28 +68,20 @@ export default function SpeedDials() {
     return () => clearInterval(interval);
   }, []);
 
-  if(seconds === 5){
-    divMessage.className =  activeMessage;
-  };
+    
 
-  if(!message && seconds === 25   ){
-    divMessage.className = activeMessage ;
-  }
+    if(seconds === 10){
+      divMessage.className =  activeMessage;
+    };
 
-  if(!message && seconds === 55   ){
-    divMessage.className = activeMessage ;
-  }
+   
+    const handleClose = () => {
+      setOpen(false);
+    };
 
-  
-
-  const handleClose = () => {
-    setOpen(false);
-  };
-
-  const handleOpen = () => {
-    setOpen(true);
-  };
-
+    const handleOpen = () => {
+      setOpen(true);
+    };
 
   
 
@@ -117,9 +112,9 @@ export default function SpeedDials() {
 
         <div id="message" className={message ? 'contactButtons__message contactButtons__messageActive' : 'contactButtons__message'} >
             <CloseIcon className="closeIcon" onClick={showMessage}/>
-            <p>😊Hola, bienvenidos y bienvenidas a nuestro portal web, 
-              ¿En busca de un presupuesto ajustado a tus necesidades? Puedes solicitarlo ahora mismo
-              por el medio que más gustes. Un saludo. <br/> 📲☎📭👇
+            <p>😊
+              ¿ En busca de un presupuesto ajustado a tus necesidades para tu mudanza en Barcelona ? Puedes solicitarlo ahora mismo
+              por el medio que más gustes. Un saludo. <br/> <span> 📲☎📭👇</span>
 
             </p>
         </div>
