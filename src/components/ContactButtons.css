@@ -12,7 +12,7 @@
  .MuiFab-root{
   background-color: #01b400 !important;
   box-shadow: 0px 5px 7px 1px rgba(0,0,0,0.75) !important;
-  color: #000000 !important;
+  color: #000000 !important; 
   width: 70px !important;
   height: 70px !important;
   align-items: center !important;
@@ -62,14 +62,15 @@
 
   .contactButtons__message > .closeIcon{
     cursor: pointer;
-    font-size: xx-large;
+    height: 1.3em;
+    width: 1.3em;
     position: absolute;
-    top: 0;
+    top: -25px;
     right: 0px;
     color: black;
     border-radius: 50px;
-    background: linear-gradient(to right, #ff0000 , #ab0000); 
-    box-shadow: 4px 4px 4px rgba(0,0,0,.55);
+    background: linear-gradient(to right, #ff0000 , #ab0000);
+    box-shadow: 4px 4px 4px rgb(0 0 0 / 55%);
 
   }
 

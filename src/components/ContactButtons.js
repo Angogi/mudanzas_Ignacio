@@ -51,6 +51,7 @@ export default function SpeedDials() {
   const classes = useStyles();
   const [open, setOpen] = React.useState(false);
   const [seconds, setSeconds] = useState(0);
+  const [closed, setClosed] = useState(0);
   const [message, setMessage] = useState(false);
   const divMessage = document.getElementById('message');
   const activeMessage = 'contactButtons__message contactButtons__messageActive';
@@ -92,7 +93,7 @@ export default function SpeedDials() {
   return (
    
       <div className="contactButtons">
-      
+    
         <SpeedDial
           ariaLabel="SpeedDial example"
           className={classes.speedDial}
@@ -117,8 +118,8 @@ export default function SpeedDials() {
         <div id="message" className={message ? 'contactButtons__message contactButtons__messageActive' : 'contactButtons__message'} >
             <CloseIcon className="closeIcon" onClick={showMessage}/>
             <p>😊Hola, bienvenidos y bienvenidas a nuestro portal web, 
-              es un gusto para nosotros poder servirte. Puedes dejarnos tus comentarios y/o 
-              contactarnos por el medio que más gustes. Un saludo. <br/> 📲☎📭👇
+              ¿En busca de un presupuesto ajustado a tus necesidades? Puedes solicitarlo ahora mismo
+              por el medio que más gustes. Un saludo. <br/> 📲☎📭👇
 
             </p>
         </div>

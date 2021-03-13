@@ -72,7 +72,7 @@ function Home() {
                     Y por supuesto, si lo que buscas es un equilibrio entre profesionalidad y una <strong>mudanza económica desde Barcelona</strong>&nbsp;
                     estás en el lugar indicado, puedes consultarnos ¡ahora mismo! <br/><br/>
                     <ul className="contactList contactList__align">
-                        <a href="tel:722845044"><PhoneIcon/>722845044</a>
+                        <a href="tel:722845044"><PhoneIcon/>698632639</a>
                         <a className="contactList__whatsapp" href="https://wa.me/34698632639"><WhatsAppIcon />WhatsApp</a>
                     </ul> 
                 </h3>
@@ -85,7 +85,7 @@ function Home() {
                     Contacta ahora y solicita un presupuesto a medida: <br/><br/>
                         <ul className="contactList">
                             <a href="tel:722845044"><PhoneIcon/>722845044</a>
-                            <a className="contactList__whatsapp" href="https://wa.me/34698632639"><WhatsAppIcon />WhatsApp</a>
+                            <a className="contactList__whatsapp" href="https://wa.me/34722845044"><WhatsAppIcon />WhatsApp</a>
                         </ul>
                     
                 </h3>
