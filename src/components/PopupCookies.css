@@ -10,11 +10,7 @@
     z-index: 1000;
 }
 
-.popupDiv{
-    flex: 1;
-    background: linear-gradient(to right, #ff0000 , #ab0000);
-    opacity: 0.5;
-}
+
 
 .popupText{
   display: flex;
