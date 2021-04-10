@@ -37,7 +37,7 @@ const actions = [
   },
   { icon: <PhoneInTalkIcon />, 
     name: 'Llamar',
-    path: 'tel:+34678567876'
+    path: 'tel:+34698632639'
   },
   { icon: <EmailIcon />, 
     name: 'Email',
